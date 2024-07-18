@@ -11,7 +11,7 @@ output "Fav_City_Names"{
 
 variable "state" {}
 output "Fav_state"{
-    value="I am from ${state}"
+    value="I am from ${var.state}"
 }
 
 output "batch_op" {
