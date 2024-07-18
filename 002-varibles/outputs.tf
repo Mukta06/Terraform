@@ -9,7 +9,7 @@ output "Fav_City_Names"{
     value = "The city where I stay is : ${var.city}"
 }
 
-variable "batch" {}
+
 output "batch_op" {
     value= var.Batch
 }
