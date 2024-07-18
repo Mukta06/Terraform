@@ -9,7 +9,7 @@ output "Fav_City_Names"{
     value = "The city where I stay is : ${var.city}"
 }
 
-#variable "state" {}
+variable "state" {}
 output "Fav_state"{
     value="I am from ${var.state}"
 }
