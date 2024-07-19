@@ -1,6 +1,6 @@
 # Provider --> 
 provider "aws" {
-    region = "N.Virginia"
+    region = "us-east-1"
 }
 
 resource "aws_instance" "Application" {
