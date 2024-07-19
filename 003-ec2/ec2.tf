@@ -1,5 +1,7 @@
 # Provider --> 
-provider "aws" {}
+provider "aws" {
+    region = "N.Virginia"
+}
 
 resource "aws_instance" "Application" {
     ami= "ami-072983368f2a6eab5"
