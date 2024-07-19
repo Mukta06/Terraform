@@ -1,6 +1,6 @@
 resource "aws_instance" "App" {
     ami = "ami-072983368f2a6eab5"
-    instance_type = t2.micro
+    instance_type = "t2.micro"
     tags = {
       Name="tf-remote-backend-dev"
     }
