@@ -7,7 +7,7 @@ terraform {
     bucket = "b57-mukta-tf-state-bucket"
     key = "dev/dynamodb/terraform.tfstate"
     region="us-east-1"
-    dynamodb_table = "terraform-locking"
+    #dynamodb_table = "terraform-locking"
     
   }
 }
