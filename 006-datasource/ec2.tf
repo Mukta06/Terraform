@@ -8,8 +8,8 @@ resource "aws_instance" "Web"{
 
 data "aws_ami" "ami" {
   most_recent      = true
-  name_regex       = "^DevOps-LabImage-Centos-8$"
-  owners           = ["891377102653"]
+  name_regex       = "DevOps-LabImage-Centos-8"
+  owners           = ["355449129696"]
 }
 
 output "private_ip_address" {
