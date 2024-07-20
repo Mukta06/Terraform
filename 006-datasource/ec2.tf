@@ -4,7 +4,7 @@ data "aws_ami" "ami" {
   owners           = ["355449129696"]
 }
 resource "aws_instance" "Web"{
-    ami="data.aws_ami.ami.id"
+    ami=data.aws_ami.ami.id
     instance_type="t2.micro"
     tags={
         Name="tf-datasource-instance"
